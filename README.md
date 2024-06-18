@@ -1,6 +1,9 @@
 # UNIP Score Calculator
 This web application calculates the final score for students of UNIP's EAD technological courses based on their exam, PIM, and assessment grade scores.
 
+![Screenshot_4](https://github.com/KaiqueCampos/unip-score-calculator/assets/70600553/c9500858-cc13-4cc5-996b-7ce80033dc5b)
+
+
 ## Usage
 ### 1. Input Fields:
 - Exam score: Enter the score obtained in the exam.
