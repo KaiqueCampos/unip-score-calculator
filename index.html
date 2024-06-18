@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+
+  <title>Score Calculator</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <form onsubmit={calcScore()}>
+      <h1>Score Calculator</h1>
+      <div class="input-container">
+        <label for="exam-score">Exam score:</label>
+        <input type="text" id="exam-score" name="exam-score" />
+      </div>
+
+      <div class="input-container">
+        <label for="pim-score">PIM score:</label>
+        <input type="text" id="pim-score" name="pim-score" />
+      </div>
+
+      <div class="input-container">
+        <label for="assesment-grade-score">Assesment grade score:</label>
+        <input type="text" id="assesment-grade-score" name="assesment-grade-score" />
+      </div>
+
+      <button type="submit">Calculate</button>
+    </form>
+
+    <div class="result-container">
+      <h1 class="result-container-title">Final score:</h1>
+
+      <p class="final-score-text approved">0.00</p>
+    </div>
+  </div>
+
+</body>
+
+</html>
